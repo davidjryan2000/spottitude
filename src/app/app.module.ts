@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { SearchComponent } from './search/search.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     BrowserModule,
     FormsModule,
     HttpModule
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
